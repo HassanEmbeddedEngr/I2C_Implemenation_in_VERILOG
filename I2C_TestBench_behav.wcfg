@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="I2C_TestBench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="I2C_TestBench" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1000000000001fs"></ZoomEndTime>
+      <Cursor1Time time="102564103000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="142"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/I2C_TestBench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_TestBench/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_TestBench/newd" type="logic">
+      <obj_property name="ElementShortName">newd</obj_property>
+      <obj_property name="ObjectShortName">newd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_TestBench/addr" type="array">
+      <obj_property name="ElementShortName">addr[6:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_TestBench/op" type="logic">
+      <obj_property name="ElementShortName">op</obj_property>
+      <obj_property name="ObjectShortName">op</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_TestBench/din" type="array">
+      <obj_property name="ElementShortName">din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_TestBench/dout" type="array">
+      <obj_property name="ElementShortName">dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_TestBench/sda" type="logic">
+      <obj_property name="ElementShortName">sda</obj_property>
+      <obj_property name="ObjectShortName">sda</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_TestBench/scl" type="logic">
+      <obj_property name="ElementShortName">scl</obj_property>
+      <obj_property name="ObjectShortName">scl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_TestBench/busy" type="logic">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_TestBench/ack_err" type="logic">
+      <obj_property name="ElementShortName">ack_err</obj_property>
+      <obj_property name="ObjectShortName">ack_err</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_TestBench/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_TestBench/dut/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_TestBench/dut/data_addr" type="array">
+      <obj_property name="ElementShortName">data_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_addr[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_TestBench/dut/data_tx" type="array">
+      <obj_property name="ElementShortName">data_tx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_tx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_TestBench/dut/sda_en" type="logic">
+      <obj_property name="ElementShortName">sda_en</obj_property>
+      <obj_property name="ObjectShortName">sda_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_TestBench/dut/pulse" type="array">
+      <obj_property name="ElementShortName">pulse[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pulse[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/I2C_TestBench/dut/count1" type="array">
+      <obj_property name="ElementShortName">count1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">count1[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Aug 23 14:02:55 2024
+# Process ID: 20900
+# Current directory: C:/Users/Hp/I2C_n_Verilg/I2C_n_Verilg.runs/synth_1
+# Command line: vivado.exe -log I2C_Protocol.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source I2C_Protocol.tcl
+# Log file: C:/Users/Hp/I2C_n_Verilg/I2C_n_Verilg.runs/synth_1/I2C_Protocol.vds
+# Journal file: C:/Users/Hp/I2C_n_Verilg/I2C_n_Verilg.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source I2C_Protocol.tcl -notrace
